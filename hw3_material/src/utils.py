@@ -34,6 +34,7 @@ def solve_homography(u, v):
     U, S, VT = np.linalg.svd(A)
     H = VT[-1, :]/VT[-1, -1]
     H = H.reshape((3, 3))
+#     https://cseweb.ucsd.edu/classes/wi07/cse252a/homography_estimation/homography_estimation.pdf
     return H
 
 
