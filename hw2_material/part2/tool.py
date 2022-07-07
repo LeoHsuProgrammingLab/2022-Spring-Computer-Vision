@@ -159,9 +159,6 @@ def train(model, train_loader, val_loader, num_epoch, log_path, save_path, devic
                 
                 # correct if label == predict_label
                 corr_val_num += (pred.eq(label.view_as(pred)).sum().item())
-
-            # scheduler += 1 for adjusting learning rate later
-            scheduler.step()
             
             # averaging training_loss and calculate accuracy
             val_loss = val_loss / len(val_loader.dataset) 
