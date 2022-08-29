@@ -3,7 +3,7 @@ NTU EE CV course
 
 HW1: DoG
 
-HW2: DL
+HW2: Machine Learning practices
 
 HW3: Homography and stitching
 
