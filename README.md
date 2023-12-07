@@ -1,4 +1,4 @@
-# 2022-Spring-Computer-Vision
+# 2022_Spring_Computer_Vision
 NTU EE CV course HW
 
 HW1: DoG
