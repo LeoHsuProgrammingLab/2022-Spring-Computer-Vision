@@ -8,3 +8,5 @@ HW2: Machine Learning practices
 HW3: Homography and stitching
 
 HW4: Disparity matching
+
+Final Project: Pupil Tracking
